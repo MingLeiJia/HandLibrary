@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.handlibrary.LoginActivity" >
+
+    <item
+        android:id="@+id/my"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="我的"/>
+    <item
+        android:id="@+id/loginout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="退出登录"/>
+    <item
+        android:id="@+id/cancelaccount"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="注销账号"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="关于软件"/>
+</menu>

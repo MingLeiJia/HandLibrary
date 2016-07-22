@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mintcream"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/appname"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et_register_id"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/id_small"
+        android:drawablePadding="20dp"
+        android:hint="@string/studentId"
+        android:textSize="16sp" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_register_pass"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="20dp"
+        android:hint="@string/pass"
+        android:textSize="16sp" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_register_passrepeat"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/unlock"
+        android:drawablePadding="20dp"
+        android:hint="@string/passrepeat"
+        android:textSize="16sp" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="260dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/cb_protocol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agree" />
+        <TextView 
+            android:id="@+id/tv_protocol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/protocol"
+            android:textColor="#FF0000"
+            android:textSize="16sp"
+            />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bn_register"
+        android:layout_marginTop="30dp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/register"
+        android:background="@drawable/btn_default" />
+
+</LinearLayout>

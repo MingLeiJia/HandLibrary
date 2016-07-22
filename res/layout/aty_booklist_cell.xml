@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/ll_hot"
+        android:layout_width="92dp"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_booklist"
+            android:layout_width="92dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_booklist_cell_bookname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:singleLine="true"
+            android:text="bookname"
+            android:textColor="@color/origin"
+            android:textSize="18sp" />
+		<LinearLayout 
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+		    >
+		    
+        <TextView
+            android:id="@+id/tv_booklist_cell_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="author"
+            android:textSize="16sp"
+            />
+		</LinearLayout>
+        <TextView
+            android:id="@+id/tv_booklist_cell_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="time"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bn_comment"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_default"
+                android:text="评价" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

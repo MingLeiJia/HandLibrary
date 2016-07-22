@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lines="10"
+        android:hint="发布一些你的高见和感悟吧~"
+        android:background="@drawable/edittextback"
+        android:textSize="20dp"
+    />
+
+    <Button
+        android:id="@+id/bn_comment_sure"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_default"
+    	android:layout_gravity="center_horizontal"
+        android:text="评论好了" />
+
+</LinearLayout>

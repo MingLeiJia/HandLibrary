@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divide">#CCCCCC</color>
+    
+    <color name="blanchedalmond">#ffebcd</color> <!-- 白杏色 -->
+    <color name="mintcream">#f5fffa</color> <!-- 薄荷色 -->
+    <color name="origin">#FF6600</color> <!-- 橙色 -->
+    <color name="green">#66CC66</color> <!-- 绿色 -->
+</resources>
